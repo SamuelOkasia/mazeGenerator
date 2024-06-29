@@ -14,10 +14,11 @@ To install and run this project locally, follow these steps:
    cd maze-generator
 
 2. **Install dependencies:**
-  ```sh
-  npm install
-  ```
-
+   ```sh
+   npm install
+   ```
+   
 3. **Start the development server:**
-  ```sh
-  npm start
+   ```sh
+   npm start
+  
