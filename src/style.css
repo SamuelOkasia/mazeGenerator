@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+.maze-generator{
+    /* Rectangle 58 */
+    margin-top: 5rem;
+
+    position: absolute;
+    /*width: 480.19px;*/
+    /*height: 801.89px;*/
+    padding: 1rem;
+
+    background: #FFFFFF;
+    box-shadow: 0px 50px 100px -20px rgba(50, 50, 93, 0.25), 0px 30px 60px -30px rgba(0, 0, 0, 0.3), inset 0px 1px 1px rgba(255, 255, 255, 0.1);
+    border-radius: 8px;
+
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+
+}
+
+.title{
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+}
+
+.label{
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+}
+
+
+.maze_input{
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+}
+
+.maze_input input{
+    width: 70px;
+    height: 25px;
+}
+
+/*.settings{*/
+/*   display: flex;*/
+/*    gap: 1rem;*/
+/*}*/
+
+.button{
+    /* Rectangle 61 */
+
+    width: 426.35px;
+    height: 39.6px;
+
+    background: #FFFFFF;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.35);
+    border: none;
+    margin: 1rem 0;
+
+}
