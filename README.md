@@ -2,7 +2,7 @@
 
 This project is a React application that generates a maze using a Depth-First Search (DFS) algorithm with backtracking. The user can specify the number of rows and columns for the maze grid.
 
-
+Website Link: https://mazegenerator-samuel-okasia.netlify.app/
 
 ## Installation
 
