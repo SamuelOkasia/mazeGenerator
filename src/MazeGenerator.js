@@ -1,5 +1,5 @@
 // src/MazeGenerator.js
-import React, { useState, useRef, useEffect } from 'react';
+import React, { useState, useRef} from 'react';
 import Maze from './Maze';
 import './style.css';
 
@@ -9,9 +9,7 @@ import './style.css';
  * and columns for the maze grid.
  */
 function MazeGenerator() {
-    const [mazeSize, setMazeSize] = useState(500);
     const [rowsCols, setRowsCols] = useState(20);
-    const [generationComplete, setGenerationComplete] = useState(false);
     const canvasRef = useRef(null);
 
     /**
